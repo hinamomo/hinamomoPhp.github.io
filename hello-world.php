@@ -1,10 +1,12 @@
 <html><body>
 <?php
-// A simple web site in Cloud9 that runs through Apache
-// Press the 'Run' button on the top to start the web server,
-// then click the URL that is emitted to the Output tab of the console
+  $num = rand(0,1);
+  if($num == 0){
+     echo 'today is lucky!';
+  }else{
+    echo 'today is unlucky..';
+  }
 
-echo 'Hello world from Cloud9! by Momoko';
 
 ?>
 </body>

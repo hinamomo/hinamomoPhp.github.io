@@ -36,6 +36,6 @@ $stt = $pdo->query("SELECT * FROM posts");
 
 </table>
 
-<p>登録が完了しました。<br /><a href="index.html">戻る</a></p>
+<p>登録完了<br /><a href="index.html">戻る</a></p>
 </body>
 </html>
